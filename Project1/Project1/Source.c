@@ -11,6 +11,7 @@ int main() {
 	printf("Introduceti cele 2 valori:\n");
 	scanf("%d", &a);
 	scanf("%d", &b);
+	//apelam functia
 	interschimbare(&a, &b);
 	printf("Valorile dupa interschimbare sunt: %d %d\n", a, b);
 	system("pause");
